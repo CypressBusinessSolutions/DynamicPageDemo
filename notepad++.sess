@@ -1,0 +1,14 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="6">
+            <File firstVisibleLine="558" xOffset="0" scrollWidth="1368" startPos="8993" endPos="8993" selMode="0" lang="COBOL" encoding="-1" filename="B:\BP\ANGULAR.HANDLER.SUB" backupFilePath="" originalFileLastModifTimestamp="1444756987" />
+            <File firstVisibleLine="15" xOffset="0" scrollWidth="1280" startPos="3999" endPos="3999" selMode="0" lang="HTML" encoding="-1" filename="C:\Users\jthompson\Documents\GitHub\CypressHosting\sites\Page\public\index.html" backupFilePath="" originalFileLastModifTimestamp="1444776346" />
+            <File firstVisibleLine="69" xOffset="0" scrollWidth="928" startPos="507" endPos="507" selMode="0" lang="Javascript" encoding="-1" filename="C:\Users\jthompson\Documents\GitHub\CypressHosting\sites\Page\public\js\app.js" backupFilePath="" originalFileLastModifTimestamp="1444775663" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="720" startPos="117" endPos="98" selMode="0" lang="Javascript" encoding="-1" filename="C:\Users\jthompson\Documents\GitHub\CypressHosting\sites\Page\public\home\home.js" backupFilePath="" originalFileLastModifTimestamp="1444775501" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1304" startPos="153" endPos="153" selMode="0" lang="HTML" encoding="-1" filename="C:\Users\jthompson\Documents\GitHub\CypressHosting\sites\Page\public\home\home.html" backupFilePath="" originalFileLastModifTimestamp="1444775555" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="584" startPos="301" endPos="301" selMode="0" lang="Javascript" encoding="-1" filename="C:\Users\jthompson\Documents\GitHub\CypressHosting\sites\Page\public\js\app_routes.js" backupFilePath="" originalFileLastModifTimestamp="1444776459" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1288" startPos="320" endPos="320" selMode="0" lang="HTML" encoding="-1" filename="C:\Users\jthompson\Documents\GitHub\CypressHosting\sites\Page\public\login\login.html" backupFilePath="" originalFileLastModifTimestamp="1444776269" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

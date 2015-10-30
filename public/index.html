@@ -1,0 +1,86 @@
+<html lang="en" ng-app="pageApp">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="Valley Vet (CBS)">
+      <link rel="icon" href="/favicon.ico">
+      <title>Dynamic Page Test</title>
+      <link href="/shared/vendor/bootstrap/dist/css/bootstrap.css" rel="stylesheet" >
+      <!--- <link href="//cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.1/sandstone/bootstrap.min.css" id="themeStyle" rel="stylesheet"> -->
+
+   </head>
+   <body>
+      <div class="container-fluid">
+      <div class="row">
+         <nav class="navbar navbar-inverse">
+            <div class="navbar-header" ng-cloak >
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="#home">Dynamic Page Test</a>
+            </div>
+            <div ng-if="settings.access.IsAuthenicated" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" ng-cloak >
+               <ul class="nav navbar-nav">
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#color">Colors</a></li>
+				  <li><a href="#vendor">Vendor</a></li>
+                  <li><a href="#bcwQuote">Quote</a></li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right">
+                  <li ng-show="settings.access.profile.gavatarUrl">
+                     <img class="img-circle" ng-src="{{settings.access.profile.gavatarUrl}}&s=40">
+                  </li>
+                  <li><button ng-click="logout()" class="down10 btn btn-danger btn-md"><span class="glyphicon glyphicon-off"></span> Off</button></li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+      <div class="row">
+         <div class="col-sm-12" ng-view=""></div>
+         <div class="hidden">
+            <div id="dwtcontrolContainer"></div>
+         </div>
+      </div>
+
+      <link rel="stylesheet" type="text/css" href="/shared/vendor/toastr/toastr.min.css">
+      <link rel="stylesheet" href="/shared/vendor/angular-ui-grid/ui-grid.css" />
+      <link rel="stylesheet" href="/shared/vendor/cropbox/jquery.cropbox.css" />
+      <link rel="stylesheet" href="/shared/vendor/ngDialog/css/ngDialog.css">
+      <link rel="stylesheet" href="/shared/vendor/ngDialog/css/ngDialog-theme-default.css">
+      <link rel="stylesheet" href="/shared/vendor/ngDialog/css/ngDialog-theme-plain.css">
+      <link rel="stylesheet" href="/shared/vendor/ngDialog/css/ngDialog-custom-width.css">
+
+      <link rel="stylesheet" href="/shared/css/common.css">
+      <link rel="stylesheet" href="css/app.css">
+	  <link rel="stylesheet" href="css/dynamicEcat.css">
+      <script type="text/javascript" src="/shared/vendor/angular/angular.js"></script>
+
+      <script type="text/javascript" src="/shared/vendor/jquery/dist/jquery.min.js"></script>
+      <!-- <script type="text/javascript" src="/shared/vendor/angular-hammer/angular-hammer.js"></script> -->
+      <script type="text/javascript" src="/shared/vendor/cropbox/jquery.cropbox.js"></script>
+      <script type="text/javascript" src="/shared/vendor/moment/moment.js"></script>
+      <script type="text/javascript" src="/shared/vendor/bootstrap/dist/js/bootstrap.js"></script>
+      <script type="text/javascript" src="/shared/vendor/angular-bootstrap-checkbox/angular-bootstrap-checkbox.js" defer></script>
+      <script type="text/javascript" src="/shared/vendor/angular-animate/angular-animate.js"></script>
+      <script type="text/javascript" src="/shared/vendor/angular-route/angular-route.js"></script>
+      <script type="text/javascript" src="/shared/vendor/angular-sanitize/angular-sanitize.js"></script>
+      <script type="text/javascript" src="/shared/vendor/angular-bootstrap/ui-bootstrap.min.js"></script>
+      <script type="text/javascript" src="/shared/vendor/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+      <script type="text/javascript" src="/shared/vendor/angular-ui-grid/ui-grid.js"></script>
+      <script type="text/javascript" src="/shared/vendor/ngDialog/js/ngDialog.js"></script>
+      <script type="text/javascript" src="/shared/vendor//toastr/toastr.min.js"></script> 
+      <script type="text/javascript" src="/shared/js/ecatapi.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+      <script type="text/javascript" src="js/app_routes.js"></script>		
+      <script type="text/javascript" src="home/home.js"></script>
+      <script type="text/javascript" src="login/login.js"></script>
+      <script type="text/javascript" src="/Service/ANGULAR/CONTROL/pageApp/CLR.TAB"></script>
+	  <script type="text/javascript" src="/Service/ANGULAR/CONTROL/pageApp/VENDOR"></script>
+      <script type="text/javascript" src="/Service/ANGULAR/CONTROL/pageApp/BCW.QUOTE"></script>
+   </body>
+</html>

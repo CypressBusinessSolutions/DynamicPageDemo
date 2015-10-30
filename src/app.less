@@ -1,0 +1,150 @@
+@minHeight: 649;
+@minDetailHeight: 200;
+@magicSpace: 10;
+@overFlow: hidden;
+@littleRoom: 2;
+@pageWidth: 800;
+
+.container {
+    position: static;
+}
+.form-group {
+    margin-bottom: @magicSpace*1px !important;
+}
+.edit-panel {
+    min-height: @minHeight*1px !important;
+    overflow-y: @overFlow;
+}
+.grid {
+    height:@minHeight*1px !important;
+    min-height: @minHeight*1px !important;
+    max-height: @minHeight*1.1px !important;
+}
+.gridOrderList {
+    height: @minDetailHeight*1.75px !important;
+    min-height: @minDetailHeight*1.75px !important;
+    max-height: @minDetailHeight*1.75px !important;
+}
+
+.gridItemDetail {
+    height: @minDetailHeight*1px !important;
+    min-height: @minDetailHeight*1px !important;
+    max-height: @minDetailHeight*1px !important;
+}
+.controlPanel {
+    padding: 10px;
+    border-radius: 15px;
+	height:@minHeight*1px !important;
+    min-height:@minHeight*1px !important;
+    max-height:@minHeight*1px !important;
+    overflow-x: @overFlow;
+    overflow-y: @overFlow;
+}
+
+.controlPanelExtra {
+	height: @minHeight*1px !important;
+    min-height: @minHeight*1.05px !important;
+    max-height: @minHeight*1.05px !important;
+}
+
+.controlPanel3Qtr {
+	height: @minHeight*.75px !important;
+    min-height: @minHeight*.755px !important;
+    max-height: @minHeight*.755px !important;
+}
+
+.controlPanelHalf {
+	height: @minHeight*.5px !important;
+    min-height: @minHeight*.55px !important;
+    max-height: @minHeight*.55px !important;
+}
+
+.controlPanelQtr {
+	height: @minHeight*.25px !important;
+    min-height: @minHeight*.255px !important;
+    max-height: @minHeight*.255px !important;
+}
+
+.controlPanelFifth {
+	height: @minHeight*.2px !important;
+    min-height: @minHeight*.205px !important;
+    max-height: @minHeight*.205px !important;
+}
+
+.controlPanelTwoFifth {
+	height: @minHeight*.4px !important;
+    min-height: @minHeight*.405px !important;
+    max-height: @minHeight*.405px !important;
+}
+
+.controlPanelSixth {
+	height: @minHeight*.166px !important;
+    min-height: @minHeight*.170px !important;
+    max-height: @minHeight*.170px !important;
+}
+
+.controlPanelEighth {
+	height: @minHeight*.125px !important;
+    min-height: @minHeight*.130px !important;
+    max-height: @minHeight*.130px !important;
+}
+
+.extraPadding {
+    padding: 35px !important;
+}
+.modal-content {
+    background-color: transparent !important;
+    -webkit-box-shadow: !important;
+}
+.active {
+    font-weight: 650;
+}
+.scanItem {
+    width: 100% !important;
+}
+
+.validSection{
+	clear:both;
+	font-weight: bold;
+}
+
+.littleRoom
+{
+    padding-top: @littleRoom*1px;
+    padding-right: @littleRoom*2px;
+    padding-bottom: @littleRoom*1px;
+    padding-left: @littleRoom*2px;
+}
+
+.littleSpace
+{
+    margin-top: @littleRoom*1px;
+    margin-right: @littleRoom*2px;
+    margin-bottom: @littleRoom*1px;
+    margin-left: @littleRoom*2px;
+}
+
+.hidden {
+    visibility: hidden !important;
+}
+
+.scroll {
+	overflow: auto;
+}
+
+.scrollable-list {
+    height: auto;
+    max-height: @minHeight*.55px !important;
+    overflow-x: hidden;
+}
+
+.modal-dialog { min-width: @pageWidth*1.025px;}
+.modal-body { min-width: @pageWidth*1px;}
+
+.inputGroupLeft{padding-right: 1px !important;}
+.inputGroupRight{padding-left: 1px !important;}
+
+.bottom {
+  position:absolute;
+  bottom: 10px;
+}

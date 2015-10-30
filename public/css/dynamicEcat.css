@@ -1,0 +1,17 @@
+
+.ecatHelp {
+  font-weight:bold;
+  text-decoration: underline;
+}
+.ecatHelp:before {
+  padding-left:5px;
+  content: "\e085";
+}
+
+.ecatLeftInput{
+text-align: left;  
+}
+
+.ecatRightInput{
+text-align: right;
+}

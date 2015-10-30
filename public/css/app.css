@@ -1,0 +1,151 @@
+.container {
+  position: static;
+}
+.form-group {
+  margin-bottom: 10px !important;
+}
+.edit-panel {
+  min-height: 649px !important;
+  overflow-y: hidden;
+}
+
+.down10 {margin-top: 10px;}
+
+.img-circle{
+	padding-top: 5px;
+	padding-right: 10px;
+}
+
+.grid {
+  height: 650px ;
+}
+.ui-grid-header-cell-wrapper { max-height: 30px;}
+
+.gridOrderList {
+  height: 350px !important;
+  min-height: 350px !important;
+  max-height: 350px !important;
+}
+.gridItemDetail {
+  height: 180px !important;
+  min-height: 180px !important;
+  max-height: 180px !important;
+}
+.controlPanel {
+  padding: 10px;
+  border-radius: 15px;
+  height: 649px !important;
+  min-height: 649px !important;
+  max-height: 649px !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.controlPanelExtra {
+  height: 649px !important;
+  min-height: 681.45px !important;
+  max-height: 681.45px !important;
+}
+.controlPanel3Qtr {
+  height: 486.75px !important;
+  min-height: 489.995px !important;
+  max-height: 489.995px !important;
+}
+.controlPanelHalf {
+  height: 324.5px !important;
+  min-height: 356.95px !important;
+  max-height: 356.95px !important;
+}
+.controlPanelQtr {
+  height: 162.25px !important;
+  min-height: 165.495px !important;
+  max-height: 165.495px !important;
+}
+.controlPanelFifth {
+  height: 129.8px !important;
+  min-height: 133.045px !important;
+  max-height: 133.045px !important;
+}
+.controlPanelTwoFifth {
+  height: 259.6px !important;
+  min-height: 262.845px !important;
+  max-height: 262.845px !important;
+}
+.controlPanelSixth {
+  height: 107.734px !important;
+  min-height: 110.33px !important;
+  max-height: 110.33px !important;
+}
+.controlPanelEighth {
+  height: 81.125px !important;
+  min-height: 84.37px !important;
+  max-height: 84.37px !important;
+}
+.extraPadding {
+  padding: 35px !important;
+}
+.modal-content {
+  background-color: transparent !important;
+}
+.active {
+  font-weight: 600;
+}
+.scanItem {
+  width: 100% !important;
+}
+.validSection {
+  clear: both;
+  font-weight: bold;
+}
+.littleRoom {
+  padding-top: 2px;
+  padding-right: 4px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+}
+.littleSpace {
+  margin-top: 2px;
+  margin-right: 4px;
+  margin-bottom: 2px;
+  margin-left: 4px;
+}
+.hidden {
+  visibility: hidden !important;
+}
+.scroll {
+  overflow: auto;
+}
+.scrollable-list {
+  height: auto;
+  max-height: 356.95px !important;
+  overflow-x: hidden;
+}
+.modal-dialog {
+  min-width: 820px;
+}
+.modal-body {
+  min-width: 800px;
+}
+.inputGroupLeft {
+  padding-right: 1px !important;
+}
+.inputGroupRight {
+  padding-left: 1px !important;
+}
+.bottom {
+  position: absolute;
+  bottom: 10px;
+}
+
+.scan-mage{
+    display : block;
+    margin : auto;
+}
+
+.ecatHelp {
+  font-weight:bold;
+  text-decoration: underline;
+}
+.ecatHelp:before {
+  padding-left:5px;
+  content: "\e085";
+}
